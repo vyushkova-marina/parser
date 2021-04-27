@@ -15,7 +15,6 @@ public class StatisticsDetails {
 
     @ToString.Exclude
     @ManyToOne
-    @JoinColumn(name = "statistics_id")
     private Statistics statistics;
 
     @Column(name = "word", length =300)

@@ -1,6 +1,6 @@
-package ru.parser.information;
+package ru.parser.constants;
 
-public class ErrorMessageText {
+public final class ErrorMessagesConstants {
     public static final String requestFailed = "не удалось выполнить запрос";
     public static final String failedParseDocument = "не удалось распарсить документ";
     public static final String failedToWriteToFile = "не удалось записать в файл";

@@ -1,6 +1,6 @@
-package ru.parser.information;
+package ru.parser.constants;
 
-public class InfoMessageText {
+public final class InfoMessagesConstants {
     public static final String requestSaved = "запрос сохранен";
     public static final String fileParsed = "файл разделен на слова";
     public static final String fileSaved = "файл сохранен";
